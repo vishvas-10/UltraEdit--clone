@@ -204,6 +204,7 @@ p{
     .grid{
         width: 620px;
         height: 1125px;
+        padding-right:8px;
     }
     nav{
         width: 90%;
