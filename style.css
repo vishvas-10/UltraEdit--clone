@@ -191,11 +191,39 @@ p{
     .nav-content{
         display: none;
     }
+    .text{
+        width: 90%;
+    }
+    .gap-container{
+        width: 90%;
+    }
+    .grid{
+        width: 90%;
+        height: 1125px;
+    }
+    nav{
+        width: 90%;
+    }
+
 
 }
 @media(max-width:450px)
 {
-    
+    body{
+        max-width: 100%;
+    }
+    .text>h1 {
+        text-align: center;
+        FONT-SIZE: 28PX;
+        font-weight: 100;
+        padding-top: 55px;
+        padding-bottom: 30px;
+    }
+    .text>p{
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
     .grid{
         display: grid;
         grid-template-rows: repeat(10, 201);
@@ -204,5 +232,18 @@ p{
     }
     .nav-content{
         display: none;
+    }
+    .text{
+        width: 90%;
+    }
+    .gap-container{
+        width: 90%;
+    }
+    .grid{
+        width: 90%;
+        height: 2250px;
+    }
+    nav{
+        width: 90%;
     }
 }
